@@ -23,17 +23,15 @@ fun BusinessCardScreen() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            // Аватар
+
             AvatarSection()
 
-            Spacer(modifier = Modifier.height(100.dp))
+            Spacer(modifier = Modifier.height(10.dp))
 
-            // Информация
             InfoSection()
 
             Spacer(modifier = Modifier.height(48.dp))
 
-            // Контакты
             ContactsSection()
         }
     }

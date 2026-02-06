@@ -21,7 +21,7 @@ fun InfoSection() {
     ) {
         Text(
             text = stringResource(R.string.full_name),
-            fontSize = 10.sp,
+            fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.primary
         )
@@ -37,7 +37,15 @@ fun InfoSection() {
         Spacer(modifier = Modifier.height(4.dp))
 
         Text(
-            text = stringResource(R.string.course_group),
+            text = stringResource(R.string.group),
+            fontSize = 16.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+
+        Spacer(modifier = Modifier.height(4.dp))
+
+        Text(
+            text = stringResource(R.string.course),
             fontSize = 16.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
