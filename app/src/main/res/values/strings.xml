@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Business Card</string>
+    <string name="full_name">Grigoriy Glavatskih</string>
+    <string name="position">Android Developer</string>
+    <string name="course_group">Group: B23-191-1 | Course: 3</string>
+    <string name="phone_number">+7 </string>
+    <string name="email">ivanov@11university.ru</string>
+    <string name="avatar_description">Profile photo</string>
 </resources>
