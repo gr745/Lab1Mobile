@@ -14,7 +14,6 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.dp
 
 @Composable
 fun AvatarSection(
@@ -29,7 +28,7 @@ fun AvatarSection(
             modifier = Modifier
                 .size(avatarSize)
                 .clip(CircleShape)
-                .border(3.dp, MaterialTheme.colorScheme.primary, CircleShape),
+                .border(dimensionResource(R.dimen.border_width_avatar), MaterialTheme.colorScheme.primary, CircleShape),
             contentScale = ContentScale.Crop
         )
     }

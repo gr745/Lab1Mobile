@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="full_name">Григорий Главатских</string>
+    <string name="position">Студент ИЖГТУ</string>
+    <string name="group">Группа: Б23-191-1</string>
+    <string name="course">Курс: 3</string>
+    <string name="phone_number">+7(900)123-45-67</string>
+    <string name="email">gregglavv@yandex.ru</string>
+    <string name="avatar_description">Profile photo</string>
+</resources>

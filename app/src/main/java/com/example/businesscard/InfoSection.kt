@@ -30,7 +30,7 @@ fun InfoSection() {
         Text(
             text = stringResource(R.string.position),
             fontSize = dimensionResource(R.dimen.text_subtitle).value.sp,
-            color = MaterialTheme.colorScheme.secondary
+            color = MaterialTheme.colorScheme.onSurfaceVariant
         )
 
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.spacing_small)))
